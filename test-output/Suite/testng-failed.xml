@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.listener.ListenerTest"/>
+    <listener class-name="com.qa.report.ExtentReportTest"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.qa.test.HomePageTest"/>
+      <class name="com.qa.test.LoginTest"/>
+      <class name="com.qa.test.OrderTest"/>
+      <class name="com.qa.test.PriceruleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.test.OrderTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.test.OrderTest -->
+      <class name="com.qa.test.PriceruleTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="clickonAddCartRules" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.test.PriceruleTest -->
+      <class name="com.qa.test.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginTest -->
+      <class name="com.qa.test.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkmrktplctitle"/>
+          <include name="teardown"/>
+          <include name="checkwarningmsg"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

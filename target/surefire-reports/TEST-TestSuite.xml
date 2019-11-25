@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="363.575" tests="42" errors="0" skipped="33" failures="9">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Project"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3614901e31e029e4"/>
+    <property name="POM_ARTIFACTID" value="PrestaShopProject"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="PrestaShopProject"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="LAPTOP-F7OMCQ2C$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Project"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Project/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="LAPTOP-F7OMCQ2C$"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.3"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Project/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\Windows\ConfigSetRoot"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Project/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_45"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="LAPTOP-F7OMCQ2C"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="PrestaShopProject"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Project-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3614901e31e029e4"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven/bin;C:\Program Files (x86)\Java\jdk1.8.0_45/bin;C:\Program Files (x86)\Java\jdk1.8.0_45/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.35.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 11153"/>
+    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_45/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_45/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Project/4/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\jbkprograms\task\PrestaShopProject"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Project/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache_maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\Project"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="setup" classname="com.qa.test.HomePageTest" time="46.755">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.09 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11186}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25424_1015363519}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 2d3c4bb1e0495356f1a2f558fa0fbad1&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11186}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25424_1015363519}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2d3c4bb1e0495356f1a2f558fa0fbad1
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.HomePageTest.setup(HomePageTest.java:39)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11186}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25424_1015363519}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2d3c4bb1e0495356f1a2f558fa0fbad1
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.debug
+log4j:ERROR Could not instantiate appender named "debug".
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 25592
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkwarningmsg" classname="com.qa.test.HomePageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedcheckwarningmsg
+Test startedMon Nov 25 18:19:01 IST 2019
+Test startedcheckwarningmsg
+Test startedMon Nov 25 18:19:01 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkmrktplctitle" classname="com.qa.test.HomePageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedcheckmrktplctitle
+Test startedMon Nov 25 18:19:01 IST 2019
+Test startedcheckmrktplctitle
+Test startedMon Nov 25 18:19:01 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="CheckValidLogin" classname="com.qa.test.LoginTest" time="40.095">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.08 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11244}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25596_1166651900}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 1379d7f39ba2ee13a501f819a17d1058&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11244}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25596_1166651900}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1379d7f39ba2ee13a501f819a17d1058
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.LoginTest.CheckValidLogin(LoginTest.java:35)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedCheckValidLogin
+Test startedMon Nov 25 18:19:05 IST 2019
+Test startedCheckValidLogin
+Test startedMon Nov 25 18:19:05 IST 2019
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11244}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25596_1166651900}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1379d7f39ba2ee13a501f819a17d1058
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+Test failureCheckValidLogin
+Test failureMon Nov 25 18:19:45 IST 2019
+Test failureCheckValidLogin
+Test failureMon Nov 25 18:19:45 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 13230
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="CheckTitle" classname="com.qa.test.LoginTest" time="0.024">
+    <failure message="expected [SHOPCART &gt; Administration panel (PrestaShop™)] but found [javaclassesinpune.com]" type="java.lang.AssertionError">java.lang.AssertionError: expected [SHOPCART > Administration panel (PrestaShop™)] but found [javaclassesinpune.com]
+	at com.qa.test.LoginTest.CheckTitle(LoginTest.java:43)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedCheckTitle
+Test startedMon Nov 25 18:19:49 IST 2019
+Test startedCheckTitle
+Test startedMon Nov 25 18:19:49 IST 2019
+Test failureCheckTitle
+Test failureMon Nov 25 18:19:50 IST 2019
+Test failureCheckTitle
+Test failureMon Nov 25 18:19:50 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 24491
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="validatechecklogoimg" classname="com.qa.test.LoginTest" time="40.068">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;shop-img&quot;]/img&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11307}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir21788_36945511}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 838e88066c5fdd4adb0dabedc1ec16bb&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;shop-img&quot;]/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="shop-img"]/img"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11307}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir21788_36945511}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 838e88066c5fdd4adb0dabedc1ec16bb
+*** Element info: {Using=xpath, value=//*[@id="shop-img"]/img}
+	at com.qa.test.LoginTest.validatechecklogoimg(LoginTest.java:48)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedvalidatechecklogoimg
+Test startedMon Nov 25 18:19:54 IST 2019
+Test startedvalidatechecklogoimg
+Test startedMon Nov 25 18:19:54 IST 2019
+Trying to find Element By : By.xpath: //*[@id="shop-img"]/img
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="shop-img"]/img"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11307}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir21788_36945511}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 838e88066c5fdd4adb0dabedc1ec16bb
+*** Element info: {Using=xpath, value=//*[@id="shop-img"]/img}
+Test failurevalidatechecklogoimg
+Test failureMon Nov 25 18:20:34 IST 2019
+Test failurevalidatechecklogoimg
+Test failureMon Nov 25 18:20:34 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 5844
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="Checkinvalidlogin" classname="com.qa.test.LoginTest" time="40.083">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11354}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24644_997998203}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 3a294e8da9396f644fda3839f4e78d6e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11354}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24644_997998203}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3a294e8da9396f644fda3839f4e78d6e
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.LoginTest.Checkinvalidlogin(LoginTest.java:53)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedCheckinvalidlogin
+Test startedMon Nov 25 18:20:38 IST 2019
+Test startedCheckinvalidlogin
+Test startedMon Nov 25 18:20:38 IST 2019
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11354}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24644_997998203}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3a294e8da9396f644fda3839f4e78d6e
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+Test failureCheckinvalidlogin
+Test failureMon Nov 25 18:21:18 IST 2019
+Test failureCheckinvalidlogin
+Test failureMon Nov 25 18:21:18 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 19295
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="Checkpwderrormsg" classname="com.qa.test.LoginTest" time="40.056">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11401}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25336_1903818536}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 4fdbe363a30f189281963a4eebb5ca4b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11401}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25336_1903818536}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fdbe363a30f189281963a4eebb5ca4b
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.LoginTest.Checkpwderrormsg(LoginTest.java:61)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedCheckpwderrormsg
+Test startedMon Nov 25 18:21:22 IST 2019
+Test startedCheckpwderrormsg
+Test startedMon Nov 25 18:21:22 IST 2019
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11401}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir25336_1903818536}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fdbe363a30f189281963a4eebb5ca4b
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+Test failureCheckpwderrormsg
+Test failureMon Nov 25 18:22:02 IST 2019
+Test failureCheckpwderrormsg
+Test failureMon Nov 25 18:22:02 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 26856
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="Checkstayloginbtn" classname="com.qa.test.LoginTest" time="40.052">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;stay_logged_in&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11449}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24036_826305658}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 0d82fd01f57787c0f11be9cff6e39ae0&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;stay_logged_in&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="stay_logged_in"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11449}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24036_826305658}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d82fd01f57787c0f11be9cff6e39ae0
+*** Element info: {Using=xpath, value=//*[@id="stay_logged_in"]}
+	at com.qa.test.LoginTest.Checkstayloginbtn(LoginTest.java:70)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Test startedCheckstayloginbtn
+Test startedMon Nov 25 18:22:07 IST 2019
+Test startedCheckstayloginbtn
+Test startedMon Nov 25 18:22:07 IST 2019
+Trying to find Element By : By.xpath: //*[@id="stay_logged_in"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="stay_logged_in"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11449}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir24036_826305658}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d82fd01f57787c0f11be9cff6e39ae0
+*** Element info: {Using=xpath, value=//*[@id="stay_logged_in"]}
+Test failureCheckstayloginbtn
+Test failureMon Nov 25 18:22:47 IST 2019
+Test failureCheckstayloginbtn
+Test failureMon Nov 25 18:22:47 IST 2019
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 27670
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="84.372">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11496}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir15796_1769835993}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: a5157a0f4eb0c8647ff79d63e3aa29ae&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11496}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir15796_1769835993}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a5157a0f4eb0c8647ff79d63e3aa29ae
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.OrderTest.setup(OrderTest.java:31)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11496}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir15796_1769835993}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a5157a0f4eb0c8647ff79d63e3aa29ae
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 43849
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateclickonorder" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickonorder
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickonorder
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateclickoninvoices" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickoninvoices
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickoninvoices
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validateclickonmerchandisereturns" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickonmerchandisereturns
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickonmerchandisereturns
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validateclickondeliveryslips" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickondeliveryslips
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickondeliveryslips
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validateclickoncreditslips" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickoncreditslips
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickoncreditslips
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validateclickonstatuses" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickonstatuses
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickonstatuses
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validateclickonordermsgs" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidateclickonordermsgs
+Test startedMon Nov 25 18:23:31 IST 2019
+Test startedvalidateclickonordermsgs
+Test startedMon Nov 25 18:23:31 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidatecreatenewcustomer
+Test startedMon Nov 25 18:23:32 IST 2019
+Test startedvalidatecreatenewcustomer
+Test startedMon Nov 25 18:23:32 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedvalidatecreatenewcustomer
+Test startedMon Nov 25 18:23:32 IST 2019
+Test startedvalidatecreatenewcustomer
+Test startedMon Nov 25 18:23:32 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="com.qa.test.PriceruleTest" time="44.35">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;email&quot;]&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.07 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11544}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir22436_82579678}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: bd45297d97e2892bc166254c61f08935&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;email&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11544}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir22436_82579678}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd45297d97e2892bc166254c61f08935
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at com.qa.test.PriceruleTest.setup(PriceruleTest.java:27)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-F7OMCQ2C', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:11544}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Windows\TEMP\scoped_dir22436_82579678}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd45297d97e2892bc166254c61f08935
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 44756
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="clickonAddCartRules" classname="com.qa.test.PriceruleTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test startedclickonAddCartRules
+Test startedMon Nov 25 18:24:16 IST 2019
+Test startedclickonAddCartRules
+Test startedMon Nov 25 18:24:16 IST 2019
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.PriceruleTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
