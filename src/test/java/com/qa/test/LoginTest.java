@@ -3,19 +3,15 @@ package com.qa.test;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.pages.BaseClass;
 import com.qa.pages.HomePage;
 import com.qa.pages.loginPage;
-@Listeners(com.qa.listener.ListenerTest.class)	
+
 public class LoginTest extends BaseClass {
 	loginPage Loginpage;
 	HomePage homepage;

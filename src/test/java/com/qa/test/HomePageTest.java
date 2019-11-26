@@ -1,28 +1,17 @@
 package com.qa.test;
 
 
-import java.util.List;
-import java.util.NoSuchElementException;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.pages.BaseClass;
 import com.qa.pages.HomePage;
-import com.qa.pages.PriceRulesPage;
-
 import com.qa.pages.loginPage;
-import com.qa.util.Dropdown;
 import com.qa.util.ScreenShot;
-@Listeners(com.qa.listener.ListenerTest.class)	
+	
 public class HomePageTest extends BaseClass{
 	HomePage homepage;
 	loginPage Loginpage;

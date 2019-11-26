@@ -3,7 +3,6 @@ package com.qa.test;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.pages.BaseClass;
@@ -11,7 +10,7 @@ import com.qa.pages.HomePage;
 import com.qa.pages.PriceRulesPage;
 import com.qa.pages.loginPage;
 import com.qa.util.Dropdown;
-@Listeners(com.qa.listener.ListenerTest.class)	
+
 public class PriceruleTest extends BaseClass{
 	HomePage homepage;
 	loginPage Loginpage;
