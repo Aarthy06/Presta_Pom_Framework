@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
 <listeners>
   <listener class-name="com.qa.listener.ListenerTest"/>
-   <listener class-name="com.qa.report.ExtentReportTest"/>
+   <!--<listener class-name="com.qa.report.ExtentReportTest"/>-->
   </listeners>
   <test name="Test">
     <classes>
