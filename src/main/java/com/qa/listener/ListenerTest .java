@@ -1,5 +1,4 @@
 package com.qa.listener;
-		
 
 import java.io.IOException;
 
@@ -46,12 +45,12 @@ public class ListenerTest extends BaseClass implements ITestListener
     public void onTestFailure(ITestResult result) {					
     	test.log(LogStatus.FAIL, result.getMethod().getMethodName() + "_[...Test is failed...]");
 
+        System.out.println("Test failure" +result.getName());
+        System.out.println("Test failure" +new java.util.Date());
     	System.out.println("[__Test Failure Exception is occured__] : " + result);
-		try {
-			TestUtil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+
+        ScreenShot.invokeScreenshotMethod(result);
+
             
     }		
 
