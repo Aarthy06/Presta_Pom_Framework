@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>15/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 26 14:13:36 IST 2019</td>
+<td>Started on:</td><td>Tue Nov 26 17:11:56 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>277 seconds (277638 ms)</td>
+<tr><td>Total time:</td><td>243 seconds (243976 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,52 +76,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.qa.test.HomePageTest.checkmrktplctitle()'><b>checkmrktplctitle</b><br>Test class: com.qa.test.HomePageTest</td>
-<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
-System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at com.qa.pages.HomePage.clickonconn2mrktplc(HomePage.java:121)
-	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:77)
+<td><div><pre>java.lang.AssertionError: expected [exp] but found [Dashboard • SHOPCART]
+	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:79)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26146797", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace26146797'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
-System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at com.qa.pages.HomePage.clickonconn2mrktplc(HomePage.java:121)
-	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:77)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18689571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace18689571'><pre>java.lang.AssertionError: expected [exp] but found [Dashboard • SHOPCART]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -134,7 +99,7 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+	at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
@@ -155,7 +120,7 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>52</td>
+<td>4</td>
 <td>com.qa.test.HomePageTest@ceda24</td></tr>
 <tr>
 <td title='com.qa.test.HomePageTest.checkwarningmsg()'><b>checkwarningmsg</b><br>Test class: com.qa.test.HomePageTest</td>
@@ -163,8 +128,8 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 - Enable PHP&apos;s allow_url_fopen setting] but found []
 	at com.qa.test.HomePageTest.checkwarningmsg(HomePageTest.java:71)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4427213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace4427213'><pre>java.lang.AssertionError: expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18960102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace18960102'><pre>java.lang.AssertionError: expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server
 - Enable PHP&apos;s allow_url_fopen setting] but found []
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
@@ -184,7 +149,7 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+	at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
@@ -205,15 +170,15 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>15</td>
+<td>9</td>
 <td>com.qa.test.HomePageTest@ceda24</td></tr>
 <tr>
 <td title='com.qa.test.PriceruleTest.clickonAddCartRules()'><b>clickonAddCartRules</b><br>Test class: com.qa.test.PriceruleTest<br>Parameters: TC01, arthymane(arthymane27@gmail.com), 1000</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.qa.test.PriceruleTest.clickonAddCartRules(PriceruleTest.java:69)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30274256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace30274256'><pre>java.lang.NullPointerException
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace21465729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace21465729'><pre>java.lang.NullPointerException
 	at com.qa.test.PriceruleTest.clickonAddCartRules(PriceruleTest.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -227,7 +192,7 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+	at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
@@ -291,7 +256,7 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 <tr>
 <td title='com.qa.test.OrderTest.validateclickoncreditslips()'><b>validateclickoncreditslips</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>5</td>
+<td>7</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validateclickondeliveryslips()'><b>validateclickondeliveryslips</b><br>Test class: com.qa.test.OrderTest</td>
@@ -301,37 +266,37 @@ Session ID: d77c073c898b220dac8a19ce8548dea4
 <tr>
 <td title='com.qa.test.OrderTest.validateclickoninvoices()'><b>validateclickoninvoices</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>6</td>
+<td>8</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validateclickonmerchandisereturns()'><b>validateclickonmerchandisereturns</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>5</td>
+<td>6</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validateclickonorder()'><b>validateclickonorder</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>10</td>
+<td>8</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validateclickonordermsgs()'><b>validateclickonordermsgs</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>5</td>
+<td>14</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validateclickonstatuses()'><b>validateclickonstatuses</b><br>Test class: com.qa.test.OrderTest</td>
 <td></td>
-<td>9</td>
+<td>14</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validatecreatenewcustomer()'><b>validatecreatenewcustomer</b><br>Test class: com.qa.test.OrderTest<br>Parameters: Queen, Peter</td>
 <td></td>
-<td>10</td>
+<td>26</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 <tr>
 <td title='com.qa.test.OrderTest.validatecreatenewcustomer()'><b>validatecreatenewcustomer</b><br>Test class: com.qa.test.OrderTest<br>Parameters: David, Cris</td>
 <td></td>
-<td>7</td>
+<td>29</td>
 <td>com.qa.test.OrderTest@1a50a4c</td></tr>
 </table><p>
 </body>

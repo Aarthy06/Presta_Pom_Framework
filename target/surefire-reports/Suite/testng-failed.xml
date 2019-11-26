@@ -3,6 +3,13 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="com.qa.test.PriceruleTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="clickonAddCartRules" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.test.PriceruleTest -->
       <class name="com.qa.test.HomePageTest">
         <methods>
           <include name="setup"/>
@@ -11,13 +18,6 @@
           <include name="checkwarningmsg"/>
         </methods>
       </class> <!-- com.qa.test.HomePageTest -->
-      <class name="com.qa.test.PriceruleTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="clickonAddCartRules" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qa.test.PriceruleTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

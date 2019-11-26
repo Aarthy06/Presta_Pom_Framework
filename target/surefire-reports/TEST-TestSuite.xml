@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="278.492" tests="18" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="244.471" tests="18" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\jbkprograms\task\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5476835146717414163.tmp"/>
+    <property name="classworlds.conf" value="D:\jbkprograms\task\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3495977953984641028.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_221/bin/client;C:/Program Files (x86)/Java/jre1.8.0_221/bin;C:/Program Files (x86)/Java/jre1.8.0_221/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\Desktop\eclipse-jee-oxygen-3a-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,72 +60,107 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="checkwarningmsg" classname="com.qa.test.HomePageTest" time="15.722">
+  <testcase name="checkwarningmsg" classname="com.qa.test.HomePageTest" time="9.237">
     <failure message="expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server&#10;- Enable PHP&apos;s allow_url_fopen setting] but found []" type="java.lang.AssertionError">java.lang.AssertionError: 
 expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server
 - Enable PHP's allow_url_fopen setting] but found []
 	at com.qa.test.HomePageTest.checkwarningmsg(HomePageTest.java:71)
 </failure>
-    <system-out><![CDATA[Test startedcheckwarningmsg
-Test startedTue Nov 26 14:13:51 IST 2019
-Test failurecheckwarningmsg
-Test failureTue Nov 26 14:14:07 IST 2019
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Found Element By : By.xpath: //*[@id="email"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="email"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="email"]]
+Trying to find Element By : By.xpath: //*[@id="passwd"]
+Found Element By : By.xpath: //*[@id="passwd"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="passwd"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="passwd"]]
+Trying to find Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Found Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="login_form"]/div[3]/button]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="login_form"]/div[3]/button]
+Trying to find Element By : By.xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]
+Found Element By : By.xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (3e436a83169ccb3a14dbf8c6d72991a8)] -> xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]]
+Trying to find Element By : By.xpath: //*[@id="modal_addons_connect"]/div/div/div[2]/div
+Found Element By : By.xpath: //*[@id="modal_addons_connect"]/div/div/div[2]/div
 ]]></system-out>
     <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.debug
 log4j:ERROR Could not instantiate appender named "debug".
-Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 45577
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 36068
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
 ]]></system-err>
   </testcase>
-  <testcase name="checkmrktplctitle" classname="com.qa.test.HomePageTest" time="52.81">
-    <failure message="element not interactable&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 40.11 seconds&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-F7OMCQ2C&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: d77c073c898b220dac8a19ce8548dea4" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
-element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'LAPTOP-F7OMCQ2C', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4
-	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:77)
+  <testcase name="checkmrktplctitle" classname="com.qa.test.HomePageTest" time="4.575">
+    <failure message="expected [exp] but found [Dashboard • SHOPCART]" type="java.lang.AssertionError">java.lang.AssertionError: expected [exp] but found [Dashboard • SHOPCART]
+	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:79)
 </failure>
-    <system-out><![CDATA[Test startedcheckmrktplctitle
-Test startedTue Nov 26 14:14:21 IST 2019
-Test failurecheckmrktplctitle
-Test failureTue Nov 26 14:15:14 IST 2019
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Found Element By : By.xpath: //*[@id="email"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="email"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="email"]]
+Trying to find Element By : By.xpath: //*[@id="passwd"]
+Found Element By : By.xpath: //*[@id="passwd"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="passwd"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="passwd"]]
+Trying to find Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Found Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="login_form"]/div[3]/button]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="login_form"]/div[3]/button]
+Trying to find Element By : By.xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]
+Found Element By : By.xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="header_employee_box"]/li[1]/a/span[1]]
+Trying to find Element By : By.xpath: //*[@id="modal_addons_connect"]/div/div/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="modal_addons_connect"]/div/div/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="modal_addons_connect"]/div/div/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (29c4a29f50f521bf11d83d2c9c349e8e)] -> xpath: //*[@id="modal_addons_connect"]/div/div/div[1]/h4/a]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 38270
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 40063
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
 ]]></system-err>
   </testcase>
-  <testcase name="CheckValidLogin" classname="com.qa.test.LoginTest" time="0.486"/>
-  <testcase name="CheckTitle" classname="com.qa.test.LoginTest" time="0.034"/>
-  <testcase name="validatechecklogoimg" classname="com.qa.test.LoginTest" time="0.107"/>
-  <testcase name="Checkinvalidlogin" classname="com.qa.test.LoginTest" time="0.705"/>
-  <testcase name="Checkpwderrormsg" classname="com.qa.test.LoginTest" time="0.973"/>
-  <testcase name="Checkstayloginbtn" classname="com.qa.test.LoginTest" time="0.113"/>
-  <testcase name="validateclickonorder" classname="com.qa.test.OrderTest" time="10.586"/>
-  <testcase name="validateclickoninvoices" classname="com.qa.test.OrderTest" time="6.938"/>
-  <testcase name="validateclickonmerchandisereturns" classname="com.qa.test.OrderTest" time="5.371"/>
-  <testcase name="validateclickondeliveryslips" classname="com.qa.test.OrderTest" time="5.478"/>
-  <testcase name="validateclickoncreditslips" classname="com.qa.test.OrderTest" time="5.216"/>
-  <testcase name="validateclickonstatuses" classname="com.qa.test.OrderTest" time="9.312"/>
-  <testcase name="validateclickonordermsgs" classname="com.qa.test.OrderTest" time="5.927"/>
-  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="10.514"/>
-  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="7.403"/>
-  <testcase name="clickonAddCartRules" classname="com.qa.test.PriceruleTest" time="0.004">
+  <testcase name="CheckValidLogin" classname="com.qa.test.LoginTest" time="0.253"/>
+  <testcase name="CheckTitle" classname="com.qa.test.LoginTest" time="0.012"/>
+  <testcase name="validatechecklogoimg" classname="com.qa.test.LoginTest" time="0.033"/>
+  <testcase name="Checkinvalidlogin" classname="com.qa.test.LoginTest" time="0.273"/>
+  <testcase name="Checkpwderrormsg" classname="com.qa.test.LoginTest" time="0.268"/>
+  <testcase name="Checkstayloginbtn" classname="com.qa.test.LoginTest" time="0.064"/>
+  <testcase name="validateclickonorder" classname="com.qa.test.OrderTest" time="8.836"/>
+  <testcase name="validateclickoninvoices" classname="com.qa.test.OrderTest" time="8.165"/>
+  <testcase name="validateclickonmerchandisereturns" classname="com.qa.test.OrderTest" time="6.774"/>
+  <testcase name="validateclickondeliveryslips" classname="com.qa.test.OrderTest" time="5.511"/>
+  <testcase name="validateclickoncreditslips" classname="com.qa.test.OrderTest" time="7.675"/>
+  <testcase name="validateclickonstatuses" classname="com.qa.test.OrderTest" time="14.025"/>
+  <testcase name="validateclickonordermsgs" classname="com.qa.test.OrderTest" time="14.702"/>
+  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="26.583"/>
+  <testcase name="validatecreatenewcustomer" classname="com.qa.test.OrderTest" time="29.869"/>
+  <testcase name="clickonAddCartRules" classname="com.qa.test.PriceruleTest" time="0.003">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.qa.test.PriceruleTest.clickonAddCartRules(PriceruleTest.java:69)
 </failure>
-    <system-out><![CDATA[Test startedclickonAddCartRules
-Test startedTue Nov 26 14:18:14 IST 2019
-Test failureclickonAddCartRules
-Test failureTue Nov 26 14:18:14 IST 2019
+    <system-out><![CDATA[Before navigating to: 'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Navigated to:'https://javaclassesinpune.com/SHOPCART/admin123/index.php?controller=AdminLogin&token=c6d21cf2ef91e87fe51aa19c95ff0a14'
+Trying to find Element By : By.xpath: //*[@id="email"]
+Found Element By : By.xpath: //*[@id="email"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="email"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="email"]]
+Trying to find Element By : By.xpath: //*[@id="passwd"]
+Found Element By : By.xpath: //*[@id="passwd"]
+Value of the:[[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="passwd"]] before any changes made
+Element value changed to: [[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="passwd"]]
+Trying to find Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Found Element By : By.xpath: //*[@id="login_form"]/div[3]/button
+Trying to click on: [[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="login_form"]/div[3]/button]
+Clicked on: [[ChromeDriver: chrome on WIN8_1 (4f8f532ad7b37a5e0dc01a36204b0e69)] -> xpath: //*[@id="login_form"]/div[3]/button]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 35819
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 38591
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
 ]]></system-err>

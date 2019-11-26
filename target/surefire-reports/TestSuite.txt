@@ -1,27 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 278.492 sec <<< FAILURE! - in TestSuite
-checkwarningmsg(com.qa.test.HomePageTest)  Time elapsed: 15.722 sec  <<< FAILURE!
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 244.471 sec <<< FAILURE! - in TestSuite
+checkwarningmsg(com.qa.test.HomePageTest)  Time elapsed: 9.237 sec  <<< FAILURE!
 java.lang.AssertionError: 
 expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server
 - Enable PHP's allow_url_fopen setting] but found []
 	at com.qa.test.HomePageTest.checkwarningmsg(HomePageTest.java:71)
 
-checkmrktplctitle(com.qa.test.HomePageTest)  Time elapsed: 52.81 sec  <<< FAILURE!
-org.openqa.selenium.ElementNotVisibleException: 
-element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'LAPTOP-F7OMCQ2C', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4
-	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:77)
+checkmrktplctitle(com.qa.test.HomePageTest)  Time elapsed: 4.575 sec  <<< FAILURE!
+java.lang.AssertionError: expected [exp] but found [Dashboard • SHOPCART]
+	at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:79)
 
-clickonAddCartRules(com.qa.test.PriceruleTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+clickonAddCartRules(com.qa.test.PriceruleTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.qa.test.PriceruleTest.clickonAddCartRules(PriceruleTest.java:69)
 

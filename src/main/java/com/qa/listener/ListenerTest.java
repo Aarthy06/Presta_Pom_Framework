@@ -1,12 +1,11 @@
-package com.qa.listener;
-
-import java.io.IOException;
+/*package com.qa.listener;
 
 import org.testng.ITestContext ;
 import org.testng.ITestListener;
 import org.testng.ITestResult ;
 
 import com.qa.pages.BaseClass;
+import com.qa.util.ScreenShot;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -14,7 +13,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 
 
-public class ListenerTest extends BaseClass implements ITestListener						
+public class ListenerTest extends BaseClass  implements ITestListener						
 {		
 	protected static ExtentReports reports;
 	protected static ExtentTest test;
@@ -80,3 +79,4 @@ public class ListenerTest extends BaseClass implements ITestListener
 	
 }		
 
+*/

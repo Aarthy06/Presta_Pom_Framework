@@ -2,174 +2,100 @@
 <testng-results skipped="0" failed="3" ignored="0" total="18" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="277638" started-at="2019-11-26T14:13:36 IST" finished-at="2019-11-26T14:18:14 IST">
+  <suite name="Suite" duration-ms="243976" started-at="2019-11-26T17:11:56 IST" finished-at="2019-11-26T17:16:00 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="277638" started-at="2019-11-26T14:13:36 IST" finished-at="2019-11-26T14:18:14 IST">
-      <class name="com.qa.test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="7040" started-at="2019-11-26T14:15:15 IST" finished-at="2019-11-26T14:15:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CheckValidLogin()[pri:1, instance:com.qa.test.LoginTest@1e3708]" name="CheckValidLogin" duration-ms="488" started-at="2019-11-26T14:15:22 IST" finished-at="2019-11-26T14:15:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckValidLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="116" started-at="2019-11-26T14:15:22 IST" finished-at="2019-11-26T14:15:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="7101" started-at="2019-11-26T14:15:22 IST" finished-at="2019-11-26T14:15:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CheckTitle()[pri:2, instance:com.qa.test.LoginTest@1e3708]" name="CheckTitle" duration-ms="34" started-at="2019-11-26T14:15:30 IST" finished-at="2019-11-26T14:15:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="87" started-at="2019-11-26T14:15:30 IST" finished-at="2019-11-26T14:15:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="6041" started-at="2019-11-26T14:15:30 IST" finished-at="2019-11-26T14:15:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatechecklogoimg()[pri:3, instance:com.qa.test.LoginTest@1e3708]" name="validatechecklogoimg" duration-ms="108" started-at="2019-11-26T14:15:36 IST" finished-at="2019-11-26T14:15:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatechecklogoimg -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="136" started-at="2019-11-26T14:15:36 IST" finished-at="2019-11-26T14:15:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="5917" started-at="2019-11-26T14:15:36 IST" finished-at="2019-11-26T14:15:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Checkinvalidlogin()[pri:4, instance:com.qa.test.LoginTest@1e3708]" name="Checkinvalidlogin" duration-ms="706" started-at="2019-11-26T14:15:42 IST" finished-at="2019-11-26T14:15:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Checkinvalidlogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="79" started-at="2019-11-26T14:15:43 IST" finished-at="2019-11-26T14:15:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="6558" started-at="2019-11-26T14:15:43 IST" finished-at="2019-11-26T14:15:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Checkpwderrormsg()[pri:5, instance:com.qa.test.LoginTest@1e3708]" name="Checkpwderrormsg" duration-ms="976" started-at="2019-11-26T14:15:49 IST" finished-at="2019-11-26T14:15:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Checkpwderrormsg -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="141" started-at="2019-11-26T14:15:50 IST" finished-at="2019-11-26T14:15:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="6425" started-at="2019-11-26T14:15:50 IST" finished-at="2019-11-26T14:15:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Checkstayloginbtn()[pri:6, instance:com.qa.test.LoginTest@1e3708]" name="Checkstayloginbtn" duration-ms="113" started-at="2019-11-26T14:15:57 IST" finished-at="2019-11-26T14:15:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Checkstayloginbtn -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="98" started-at="2019-11-26T14:15:57 IST" finished-at="2019-11-26T14:15:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.test.LoginTest -->
+    <test name="Test" duration-ms="243976" started-at="2019-11-26T17:11:56 IST" finished-at="2019-11-26T17:16:00 IST">
       <class name="com.qa.test.OrderTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6665" started-at="2019-11-26T14:15:57 IST" finished-at="2019-11-26T14:16:04 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="5495" started-at="2019-11-26T17:12:55 IST" finished-at="2019-11-26T17:13:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickonorder()[pri:1, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonorder" duration-ms="10586" started-at="2019-11-26T14:16:04 IST" finished-at="2019-11-26T14:16:14 IST">
+        <test-method status="PASS" signature="validateclickonorder()[pri:1, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonorder" duration-ms="8835" started-at="2019-11-26T17:13:01 IST" finished-at="2019-11-26T17:13:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickonorder -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="87" started-at="2019-11-26T14:16:14 IST" finished-at="2019-11-26T14:16:14 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="62" started-at="2019-11-26T17:13:10 IST" finished-at="2019-11-26T17:13:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="7076" started-at="2019-11-26T14:16:14 IST" finished-at="2019-11-26T14:16:21 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="4971" started-at="2019-11-26T17:13:10 IST" finished-at="2019-11-26T17:13:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickoninvoices()[pri:2, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickoninvoices" duration-ms="6938" started-at="2019-11-26T14:16:21 IST" finished-at="2019-11-26T14:16:28 IST">
+        <test-method status="PASS" signature="validateclickoninvoices()[pri:2, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickoninvoices" duration-ms="8165" started-at="2019-11-26T17:13:15 IST" finished-at="2019-11-26T17:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickoninvoices -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="85" started-at="2019-11-26T14:16:28 IST" finished-at="2019-11-26T14:16:28 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="56" started-at="2019-11-26T17:13:23 IST" finished-at="2019-11-26T17:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="7402" started-at="2019-11-26T14:16:28 IST" finished-at="2019-11-26T14:16:36 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="4966" started-at="2019-11-26T17:13:23 IST" finished-at="2019-11-26T17:13:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickonmerchandisereturns()[pri:3, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonmerchandisereturns" duration-ms="5371" started-at="2019-11-26T14:16:36 IST" finished-at="2019-11-26T14:16:41 IST">
+        <test-method status="PASS" signature="validateclickonmerchandisereturns()[pri:3, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonmerchandisereturns" duration-ms="6774" started-at="2019-11-26T17:13:28 IST" finished-at="2019-11-26T17:13:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickonmerchandisereturns -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="81" started-at="2019-11-26T14:16:41 IST" finished-at="2019-11-26T14:16:41 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="73" started-at="2019-11-26T17:13:35 IST" finished-at="2019-11-26T17:13:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6654" started-at="2019-11-26T14:16:41 IST" finished-at="2019-11-26T14:16:48 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="5589" started-at="2019-11-26T17:13:35 IST" finished-at="2019-11-26T17:13:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickondeliveryslips()[pri:4, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickondeliveryslips" duration-ms="5478" started-at="2019-11-26T14:16:48 IST" finished-at="2019-11-26T14:16:53 IST">
+        <test-method status="PASS" signature="validateclickondeliveryslips()[pri:4, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickondeliveryslips" duration-ms="5511" started-at="2019-11-26T17:13:40 IST" finished-at="2019-11-26T17:13:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickondeliveryslips -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="91" started-at="2019-11-26T14:16:53 IST" finished-at="2019-11-26T14:16:53 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="57" started-at="2019-11-26T17:13:46 IST" finished-at="2019-11-26T17:13:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6965" started-at="2019-11-26T14:16:53 IST" finished-at="2019-11-26T14:17:00 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="4938" started-at="2019-11-26T17:13:46 IST" finished-at="2019-11-26T17:13:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickoncreditslips()[pri:5, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickoncreditslips" duration-ms="5216" started-at="2019-11-26T14:17:00 IST" finished-at="2019-11-26T14:17:06 IST">
+        <test-method status="PASS" signature="validateclickoncreditslips()[pri:5, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickoncreditslips" duration-ms="7675" started-at="2019-11-26T17:13:51 IST" finished-at="2019-11-26T17:13:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickoncreditslips -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="129" started-at="2019-11-26T14:17:06 IST" finished-at="2019-11-26T14:17:06 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="52" started-at="2019-11-26T17:13:59 IST" finished-at="2019-11-26T17:13:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6685" started-at="2019-11-26T14:17:06 IST" finished-at="2019-11-26T14:17:12 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="5910" started-at="2019-11-26T17:13:59 IST" finished-at="2019-11-26T17:14:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickonstatuses()[pri:6, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonstatuses" duration-ms="9312" started-at="2019-11-26T14:17:12 IST" finished-at="2019-11-26T14:17:22 IST">
+        <test-method status="PASS" signature="validateclickonstatuses()[pri:6, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonstatuses" duration-ms="14024" started-at="2019-11-26T17:14:04 IST" finished-at="2019-11-26T17:14:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickonstatuses -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="211" started-at="2019-11-26T14:17:22 IST" finished-at="2019-11-26T14:17:22 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="56" started-at="2019-11-26T17:14:18 IST" finished-at="2019-11-26T17:14:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6398" started-at="2019-11-26T14:17:22 IST" finished-at="2019-11-26T14:17:28 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="5562" started-at="2019-11-26T17:14:19 IST" finished-at="2019-11-26T17:14:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateclickonordermsgs()[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonordermsgs" duration-ms="5927" started-at="2019-11-26T14:17:28 IST" finished-at="2019-11-26T14:17:34 IST">
+        <test-method status="PASS" signature="validateclickonordermsgs()[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validateclickonordermsgs" duration-ms="14703" started-at="2019-11-26T17:14:24 IST" finished-at="2019-11-26T17:14:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateclickonordermsgs -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="94" started-at="2019-11-26T14:17:34 IST" finished-at="2019-11-26T14:17:34 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="55" started-at="2019-11-26T17:14:39 IST" finished-at="2019-11-26T17:14:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6551" started-at="2019-11-26T14:17:35 IST" finished-at="2019-11-26T14:17:42 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6475" started-at="2019-11-26T17:14:39 IST" finished-at="2019-11-26T17:14:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatecreatenewcustomer(java.lang.String, java.lang.String)[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validatecreatenewcustomer" duration-ms="10513" started-at="2019-11-26T14:17:42 IST" data-provider="gettestdata" finished-at="2019-11-26T14:17:52 IST">
+        <test-method status="PASS" signature="validatecreatenewcustomer(java.lang.String, java.lang.String)[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validatecreatenewcustomer" duration-ms="26583" started-at="2019-11-26T17:14:46 IST" data-provider="gettestdata" finished-at="2019-11-26T17:15:12 IST">
           <params>
             <param index="0">
               <value>
@@ -185,15 +111,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatecreatenewcustomer -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="83" started-at="2019-11-26T14:17:52 IST" finished-at="2019-11-26T14:17:52 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="58" started-at="2019-11-26T17:15:12 IST" finished-at="2019-11-26T17:15:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="6448" started-at="2019-11-26T14:17:52 IST" finished-at="2019-11-26T14:17:59 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="setup" is-config="true" duration-ms="7455" started-at="2019-11-26T17:15:12 IST" finished-at="2019-11-26T17:15:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatecreatenewcustomer(java.lang.String, java.lang.String)[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validatecreatenewcustomer" duration-ms="7407" started-at="2019-11-26T14:17:59 IST" data-provider="gettestdata" finished-at="2019-11-26T14:18:06 IST">
+        <test-method status="PASS" signature="validatecreatenewcustomer(java.lang.String, java.lang.String)[pri:7, instance:com.qa.test.OrderTest@1a50a4c]" name="validatecreatenewcustomer" duration-ms="29870" started-at="2019-11-26T17:15:20 IST" data-provider="gettestdata" finished-at="2019-11-26T17:15:50 IST">
           <params>
             <param index="0">
               <value>
@@ -209,17 +135,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatecreatenewcustomer -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="157" started-at="2019-11-26T14:18:06 IST" finished-at="2019-11-26T14:18:06 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.OrderTest@1a50a4c]" name="teardown" is-config="true" duration-ms="114" started-at="2019-11-26T17:15:50 IST" finished-at="2019-11-26T17:15:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.test.OrderTest -->
-      <class name="com.qa.test.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="setup" is-config="true" duration-ms="15101" started-at="2019-11-26T14:13:36 IST" finished-at="2019-11-26T14:13:51 IST">
+      <class name="com.qa.test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="5225" started-at="2019-11-26T17:12:25 IST" finished-at="2019-11-26T17:12:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="checkwarningmsg()[pri:8, instance:com.qa.test.HomePageTest@ceda24]" name="checkwarningmsg" duration-ms="15711" started-at="2019-11-26T14:13:51 IST" finished-at="2019-11-26T14:14:07 IST">
+        <test-method status="PASS" signature="CheckValidLogin()[pri:1, instance:com.qa.test.LoginTest@1e3708]" name="CheckValidLogin" duration-ms="252" started-at="2019-11-26T17:12:30 IST" finished-at="2019-11-26T17:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="50" started-at="2019-11-26T17:12:30 IST" finished-at="2019-11-26T17:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="5199" started-at="2019-11-26T17:12:30 IST" finished-at="2019-11-26T17:12:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckTitle()[pri:2, instance:com.qa.test.LoginTest@1e3708]" name="CheckTitle" duration-ms="12" started-at="2019-11-26T17:12:35 IST" finished-at="2019-11-26T17:12:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="48" started-at="2019-11-26T17:12:35 IST" finished-at="2019-11-26T17:12:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="4469" started-at="2019-11-26T17:12:35 IST" finished-at="2019-11-26T17:12:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatechecklogoimg()[pri:3, instance:com.qa.test.LoginTest@1e3708]" name="validatechecklogoimg" duration-ms="32" started-at="2019-11-26T17:12:40 IST" finished-at="2019-11-26T17:12:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatechecklogoimg -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="47" started-at="2019-11-26T17:12:40 IST" finished-at="2019-11-26T17:12:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="4695" started-at="2019-11-26T17:12:40 IST" finished-at="2019-11-26T17:12:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkinvalidlogin()[pri:4, instance:com.qa.test.LoginTest@1e3708]" name="Checkinvalidlogin" duration-ms="273" started-at="2019-11-26T17:12:45 IST" finished-at="2019-11-26T17:12:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkinvalidlogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="53" started-at="2019-11-26T17:12:45 IST" finished-at="2019-11-26T17:12:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="4831" started-at="2019-11-26T17:12:45 IST" finished-at="2019-11-26T17:12:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkpwderrormsg()[pri:5, instance:com.qa.test.LoginTest@1e3708]" name="Checkpwderrormsg" duration-ms="268" started-at="2019-11-26T17:12:50 IST" finished-at="2019-11-26T17:12:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkpwderrormsg -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="52" started-at="2019-11-26T17:12:50 IST" finished-at="2019-11-26T17:12:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="setup" is-config="true" duration-ms="5176" started-at="2019-11-26T17:12:50 IST" finished-at="2019-11-26T17:12:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkstayloginbtn()[pri:6, instance:com.qa.test.LoginTest@1e3708]" name="Checkstayloginbtn" duration-ms="65" started-at="2019-11-26T17:12:55 IST" finished-at="2019-11-26T17:12:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkstayloginbtn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginTest@1e3708]" name="teardown" is-config="true" duration-ms="46" started-at="2019-11-26T17:12:55 IST" finished-at="2019-11-26T17:12:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.LoginTest -->
+      <class name="com.qa.test.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="setup" is-config="true" duration-ms="6034" started-at="2019-11-26T17:11:57 IST" finished-at="2019-11-26T17:12:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="checkwarningmsg()[pri:8, instance:com.qa.test.HomePageTest@ceda24]" name="checkwarningmsg" duration-ms="9231" started-at="2019-11-26T17:12:03 IST" finished-at="2019-11-26T17:12:12 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [If you want to be able to fully use the AdminModules panel and have free modules available, you should enable the following configuration on your server
@@ -246,7 +246,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -272,7 +272,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkwarningmsg -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="teardown" is-config="true" duration-ms="1649" started-at="2019-11-26T14:14:07 IST" finished-at="2019-11-26T14:14:09 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="teardown" is-config="true" duration-ms="2935" started-at="2019-11-26T17:12:12 IST" finished-at="2019-11-26T17:12:15 IST">
           <params>
             <param index="0">
               <value>
@@ -283,50 +283,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="setup" is-config="true" duration-ms="12108" started-at="2019-11-26T14:14:09 IST" finished-at="2019-11-26T14:14:21 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="setup" is-config="true" duration-ms="4693" started-at="2019-11-26T17:12:15 IST" finished-at="2019-11-26T17:12:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="checkmrktplctitle()[pri:9, instance:com.qa.test.HomePageTest@ceda24]" name="checkmrktplctitle" duration-ms="52795" started-at="2019-11-26T14:14:21 IST" finished-at="2019-11-26T14:15:14 IST">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+        <test-method status="FAIL" signature="checkmrktplctitle()[pri:9, instance:com.qa.test.HomePageTest@ceda24]" name="checkmrktplctitle" duration-ms="4574" started-at="2019-11-26T17:12:19 IST" finished-at="2019-11-26T17:12:24 IST">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'LAPTOP-F7OMCQ2C', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4]]>
+              <![CDATA[expected [exp] but found [Dashboard • SHOPCART]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.11 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'LAPTOP-F7OMCQ2C', ip: '172.20.10.5', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:16502}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir21668_388408182}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=78.0.3904.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d77c073c898b220dac8a19ce8548dea4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:497)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy7.click(Unknown Source)
-at com.qa.pages.HomePage.clickonconn2mrktplc(HomePage.java:121)
-at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:77)
+              <![CDATA[java.lang.AssertionError: expected [exp] but found [Dashboard • SHOPCART]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.qa.test.HomePageTest.checkmrktplctitle(HomePageTest.java:79)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -339,7 +312,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -361,11 +334,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkmrktplctitle -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="teardown" is-config="true" duration-ms="1223" started-at="2019-11-26T14:15:14 IST" finished-at="2019-11-26T14:15:15 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.test.HomePageTest@ceda24]" name="teardown" is-config="true" duration-ms="554" started-at="2019-11-26T17:12:24 IST" finished-at="2019-11-26T17:12:25 IST">
           <params>
             <param index="0">
               <value>
@@ -378,11 +351,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.test.HomePageTest -->
       <class name="com.qa.test.PriceruleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.PriceruleTest@1021e6c]" name="setup" is-config="true" duration-ms="7299" started-at="2019-11-26T14:18:06 IST" finished-at="2019-11-26T14:18:14 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.PriceruleTest@1021e6c]" name="setup" is-config="true" duration-ms="8541" started-at="2019-11-26T17:15:50 IST" finished-at="2019-11-26T17:15:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="clickonAddCartRules(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.PriceruleTest@1021e6c]" name="clickonAddCartRules" duration-ms="3" started-at="2019-11-26T14:18:14 IST" data-provider="conditions" finished-at="2019-11-26T14:18:14 IST">
+        <test-method status="FAIL" signature="clickonAddCartRules(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.PriceruleTest@1021e6c]" name="clickonAddCartRules" duration-ms="0" started-at="2019-11-26T17:15:58 IST" data-provider="conditions" finished-at="2019-11-26T17:15:58 IST">
           <params>
             <param index="0">
               <value>
@@ -416,7 +389,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$46/14517890.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$46/23743852.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -442,7 +415,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonAddCartRules -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.PriceruleTest@1021e6c]" name="teardown" is-config="true" duration-ms="159" started-at="2019-11-26T14:18:14 IST" finished-at="2019-11-26T14:18:14 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.PriceruleTest@1021e6c]" name="teardown" is-config="true" duration-ms="2139" started-at="2019-11-26T17:15:58 IST" finished-at="2019-11-26T17:16:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
