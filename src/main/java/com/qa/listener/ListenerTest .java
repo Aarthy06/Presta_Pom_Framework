@@ -7,7 +7,7 @@ import org.testng.ITestContext ;
 import org.testng.ITestListener;
 import org.testng.ITestResult ;
 
-import com.psc.Base.TestBase;
+import com.qa.pages.BaseClass
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
